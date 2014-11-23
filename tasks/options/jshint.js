@@ -1,5 +1,5 @@
 module.exports = {
     scripts: {
-        src: ['js/*.js','js/**/*.js']
+        src: ['javasciripts/*.js','javasciripts/**/*.js'],
     }
 }

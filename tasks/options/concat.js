@@ -4,7 +4,7 @@ module.exports = {
         dest: 'build/css/production.css'
     },
     scripts: {
-        src: ['js/*.js'],
+        src: ['javasciripts/*.js'],
         dest: 'build/js/production.js'
     }
 }

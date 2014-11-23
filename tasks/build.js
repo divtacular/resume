@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
-	grunt.registerTask('monitor', [ 
-		'jshint', 
-		'compass', 
+	grunt.registerTask('watch', [
+		'jshint',
+		'compass',
 		'concat',
 		'cssmin',
 		'uglify',
