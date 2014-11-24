@@ -1,0 +1,23 @@
+@mixin breakpoint($point) {
+  @if $point == fly {
+    @media screen and (min-width: 0px) { @content }
+  }
+  @if $point == spider {
+    @media screen and (min-width: 320px) { @content }
+  }
+  @if $point == bird {
+    @media screen and (min-width: 480px) { @content }
+  }
+  @if $point == cat {
+    @media screen and (min-width: 768px) { @content }
+  }
+  @if $point == dog {
+    @media screen and (min-width: 1024px) { @content }
+  }
+  @if $point == goat {
+    @media screen and (min-width: 1280px) { @content }
+  }
+  @if $point == cow {
+    @media screen and (min-width: 1440px) { @content }
+  }
+}

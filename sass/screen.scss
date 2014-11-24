@@ -4,27 +4,26 @@
 @import "screen/layout/*";
 @import "screen/modules/*";
 
-
-@media (min-width: 500px) {
+@include breakpoint(bird) {
   #education .description {
     width: 85%;
   }
 }
 
-@media (min-width: 768px) {
+@include breakpoint(cat) {
   #education .description {
     width: 85%;
+  }
+}
+
+@include breakpoint(goat) {
+  #education .description {
+    width: 90%;
   }
 }
 
 @media (min-width: 992px) {
   #education .description {
     width: 87%;
-  }
-}
-
-@media (min-width: 1200px) {
-  #education .description {
-    width: 90%;
   }
 }

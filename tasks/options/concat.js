@@ -1,6 +1,6 @@
 module.exports = {
     styles: {
-        src: ['css/global.css', 'css/screen.css', 'css/print.css'],
+        src: ['css/screen.css'],
         dest: 'build/css/production.css'
     },
     scripts: {
