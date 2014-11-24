@@ -1,0 +1,33 @@
+.contact-item {
+  width: 100%;
+  float: left;
+
+  .icon {
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #32475c;
+    background: #eee;
+  }
+
+  .title {
+    width: 80%;
+    width: calc(100% - 55px);
+    font-weight: 700;
+    opacity: 0.9;
+  }
+
+  .title.only {
+    margin-top: 10px;
+  }
+
+  .description {
+    width: 80%;
+    width: calc(100% - 55px);
+    color: #334960;
+  }
+
+  &:last-child .icon {
+    border-bottom: none;
+  }
+}
