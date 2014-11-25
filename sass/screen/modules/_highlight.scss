@@ -1,7 +1,7 @@
 .item-interests,
 .item-skills {
   height: 30px;
-  color: #334960;
+  color: $cTextSecondary;
   padding: 5px 10px;
   margin-bottom: 5px;
   white-space: nowrap;
@@ -18,13 +18,13 @@
   margin-right: 5px;
   margin-bottom: 5px;
   padding: 5px 10px;
-  background: $cPrimary;
+  background: $cSecondary;
   position: relative;
   font-size: .85em;
 }
 
 .skill-level {
-  background-color: #227c74;
+  background-color: $cTextHeading;
   border-radius: 4px;
   color: #fff;
   padding: 1px 8px;

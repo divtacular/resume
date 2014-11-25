@@ -6,7 +6,7 @@
     padding: 10px;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    color: #32475c;
+    color: $cIcon;
     background: #eee;
   }
 
@@ -24,7 +24,7 @@
   .description {
     width: 80%;
     width: calc(100% - 55px);
-    color: #334960;
+    color: $cLink;
   }
 
   &:last-child .icon {
