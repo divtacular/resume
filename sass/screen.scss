@@ -3,27 +3,3 @@
 @import "screen/global/*";
 @import "screen/layout/*";
 @import "screen/modules/*";
-
-@include breakpoint(bird) {
-  #education .description {
-    width: 85%;
-  }
-}
-
-@include breakpoint(cat) {
-  #education .description {
-    width: 85%;
-  }
-}
-
-@include breakpoint(goat) {
-  #education .description {
-    width: 90%;
-  }
-}
-
-@media (min-width: 992px) {
-  #education .description {
-    width: 87%;
-  }
-}
