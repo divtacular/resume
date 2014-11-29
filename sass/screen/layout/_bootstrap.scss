@@ -2,10 +2,11 @@
   margin-top: 80px;
   margin-bottom: 15px;
   background: #fff;
-  max-width:95%;
+  width:95%;
 
   @include breakpoint(cat) {
-    max-width: 90%;
+    width: 90%;
+    max-width: 1600px;
   }
 
 }

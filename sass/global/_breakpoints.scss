@@ -15,7 +15,7 @@
     @media screen and (min-width: 1024px) { @content }
   }
   @if $point == goat {
-    @media screen and (min-width: 1280px) { @content }
+    @media screen and (min-width: 1200px) { @content }
   }
   @if $point == cow {
     @media screen and (min-width: 1440px) { @content }
