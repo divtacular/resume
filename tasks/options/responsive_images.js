@@ -30,7 +30,7 @@ module.exports = {
                 expand: true,
                 src: ['portfolio/**/*.jpg'],
                 cwd: 'img/',
-                dest: 'img/porfolio/processed/'
+                dest: 'img/processed/'
             }
         ]
     }
