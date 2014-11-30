@@ -1,8 +1,12 @@
 .container-fluid {
-  margin-top: 80px;
+  margin-top: 20px;
   margin-bottom: 15px;
   background: #fff;
   width:95%;
+
+  .home & {
+    margin-top: 80px;
+  }
 
   @include breakpoint(cat) {
     width: 90%;

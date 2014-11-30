@@ -6,6 +6,7 @@
       }
     }
   }
+
   .gallery {
     margin: {
       bottom: $grid-gutter-width;
@@ -18,6 +19,17 @@
       }
       position: relative;
 
+      &:hover {
+
+        & .title {
+          background: $cTextHeading;
+        }
+
+        &:before {
+          border-color: $cTextHeading;
+        }
+      }
+
       .title {
         background: rgba(147, 24, 6, 0.85);
         bottom: 0;
@@ -26,17 +38,19 @@
         padding: 0 10px;
         position: absolute;
 
+        @include transition(background 0.3s ease);
       }
+
       h2 {
         color: #fff;
         margin: 5px 0;
         font-size: 24px;
 
         @include breakpoint(bird) {
-          font-size:26px;
+          font-size: 26px;
         }
         @include breakpoint(cat) {
-          font-size:20px;
+          font-size: 20px;
         }
       }
     }
