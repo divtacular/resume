@@ -1,3 +1,4 @@
+require 'bourbon'
 require 'bootstrap-sass'
 require 'sass-globbing'
 require 'compass/import-once/activate'
