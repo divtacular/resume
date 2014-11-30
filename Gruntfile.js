@@ -40,8 +40,8 @@ module.exports = function (grunt) {
         'cssmin',
         'uglify',
         'clean',
-        'responsive_images',
-        'imagemin',
+        //'responsive_images',
+        //'imagemin',
         'notify:project'
     ]);
 
