@@ -11,16 +11,12 @@
       bottom: $grid-gutter-width;
     }
 
-    //col-xs-12 col-sm-6 col-md-4 col-lg-3
     .portfolio-item {
 
       margin: {
         bottom: $grid-gutter-width/2;
       }
-      @include make-xs-column(12);
-      @include make-sm-column(6);
-      @include make-md-column(4);
-      @include make-lg-column(3);
+      position: relative;
 
       .title {
         background: rgba(147, 24, 6, 0.85);
