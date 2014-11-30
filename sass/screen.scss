@@ -1,5 +1,8 @@
 @import "global";
 
 @import "screen/global/*";
+@import "screen/global/**/*";
 @import "screen/layout/*";
+@import "screen/layout/**/*";
 @import "screen/modules/*";
+@import "screen/modules/**/*";
