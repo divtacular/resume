@@ -1,0 +1,54 @@
+%platform {
+  position: relative;
+  &:before {
+    border-radius: 50%;
+    border: 1px solid rgb(147, 24, 6);
+    content: " ";
+    display: block;
+
+    position: absolute;
+    bottom: $grid-gutter-width/6;
+    right: $grid-gutter-width/6;
+
+    width: 50px;
+    height: 50px;
+
+    z-index:10;
+  }
+}
+
+.magento {
+  @extend %platform;
+
+  &:before {
+    background: #fff url('../img/icons/magento.jpg') no-repeat center center;
+    background-size: 80% auto;
+  }
+}
+
+.php {
+  @extend %platform;
+
+  &:before {
+    background: #fff url('../img/icons/php.jpg') no-repeat center center;
+    background-size: 80% auto;
+  }
+}
+
+.wordpress {
+  @extend %platform;
+
+  &:before {
+    background: #fff url('../img/icons/wordpress.jpg') no-repeat center center;
+    background-size: 80% auto;
+  }
+}
+
+.woocommerce {
+  @extend %platform;
+
+  &:before {
+    background: #fff url('../img/icons/woocommerce.jpg') no-repeat center center;
+    background-size: 80% auto;
+  }
+}
