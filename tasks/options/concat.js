@@ -4,7 +4,7 @@ module.exports = {
         dest: 'build/css/production.css'
     },
     scripts: {
-        src: ['javasciripts/*.js'],
+        src: ['libs/jquery/dist/jquery.min.js','javascripts/bootstrap.js','javascripts/picturefill/dist/picturefill.min.js'],
         dest: 'build/js/production.js'
     }
 }
