@@ -15,9 +15,24 @@
 </head>
 
 
-<body class="portfolio">
+<body class="portfolio-item">
 <!-- Page Content -->
 <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="photo-header" class="text-center">
+        <!-- PHOTO -->
+        <div id="photo">
+          <img
+            src="/CV/img/me.jpg"
+            alt="avatar">
+        </div>
+        <div id="text-header">
+          <h1>David Smythe<br><span>Web Developer</span></h1>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Portfolio Item Heading -->
   <div class="row">
@@ -32,23 +47,20 @@
   <!-- Portfolio Item Row -->
   <div class="row">
 
-    <div class="col-md-4">
-      <img class="" src"/CV/" />
+    <div class="website col-sm-12 col-md-4">
+      <img class="" src="../img/processed/featured/<?php echo $project['name'] ?>-tiny.jpg" />
     </div>
 
-    <div class="col-md-8">
+    <div class="col-sm-12 col-md-8">
       <h3>Project Description</h3>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-        varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu
-        convallis placerat, felis enim.</p>
+      <p><?php echo $project['description'] ?></p>
 
       <h3>Project Details</h3>
       <ul>
-        <li>Lorem Ipsum</li>
-        <li>Dolor Sit Amet</li>
-        <li>Consectetur</li>
-        <li>Adipiscing Elit</li>
+        <?php foreach($project['details'] as $detail) { ?>
+        <li><?php echo $detail ?></li>
+        <?php } ?>
       </ul>
     </div>
 
