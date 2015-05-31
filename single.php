@@ -34,6 +34,16 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="navigation" role="navigation">
+
+        <a href="/CV/portfolio.html">Portfolio</a>
+        <a href="/CV/">CV</a>
+      </div>
+    </div>
+  </div>
+
   <!-- Portfolio Item Heading -->
   <div class="row">
     <div class="col-lg-12">
