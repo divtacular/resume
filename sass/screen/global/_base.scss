@@ -9,11 +9,15 @@ blockquote {
 }
 a:link {
   color: $cLink;
+  text-decoration:underline;
 }
 a:visited {
   color: $cLinkVisited;
+  text-decoration:underline;
 }
-
+a:hover {
+  color: $cSecondary;
+}
 .fa {
   color: $cIcon;
 }
