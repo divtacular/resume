@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Resume of David Smythe</title>
 
-  <link href='css/screen.css' rel='stylesheet' type='text/css' media="screen">
-  <link href='css/print.css' rel='stylesheet' type='text/css' media="print">
+  <link href='build/css/production.min.css' rel='stylesheet' type='text/css' media="screen">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab' rel='stylesheet' type='text/css'>
 
+  <meta name="robots" content="NOINDEX, NOFOLLOW" />
 </head>
 <body class="home">
 <div class="container-fluid">
@@ -20,7 +20,7 @@
       <!-- PHOTO -->
       <div id="photo">
         <img
-            src="img/me.jpg"
+            src="/CV/build/img/me.jpg"
             alt="avatar">
       </div>
       <div id="text-header">
@@ -30,7 +30,7 @@
   </div>
 </div>
 <div class="row">
-<div class="col-xs-12 col-sm-7">
+<div role="main" class="main col-xs-12 col-sm-7">
   <!-- ABOUT ME -->
   <div class="box">
     <h2><i class="fa fa-user ico"></i> About</h2>
@@ -185,7 +185,7 @@
     </div>
   </div>
 </div>
-<div class="col-xs-12 col-sm-5">
+<div role="complimentary" class="sidebar col-xs-12 col-sm-5">
   <!-- CONTACT -->
   <div class="box clearfix">
     <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
@@ -248,6 +248,7 @@
         <span class="skill badge">Sass</span>
         <span class="skill badge">Bower</span>
         <span class="skill badge">Grunt</span>
+        <span class="skill badge">Vagrant</span>
       </div>
     </div>
     <div class="skills clearfix">
@@ -274,6 +275,7 @@
         <span class="skill badge">Magento</span>
         <span class="skill badge">OpenCart</span>
         <span class="skill badge">Cake PHP</span>
+        <span class="skill badge">Composer</span>
         <span class="skill badge">MySQL</span>
       </div>
     </div>
@@ -282,10 +284,11 @@
         Integrations
 
       </div>
-      <div class=" col-sm-12 clearfix">
-        <span class="skill badge">PayPal checkout into WordPress</span>
-        <span class="skill badge">JSON feed to WordPress custom post types</span>
-        <span class="skill badge">XML product and category feed to <span>Magento, with realtime stock updates</span>
+      <div class="col-sm-12 clearfix">
+        <span class="skill badge">PayPal</span>
+        <span class="skill badge">WordPress API</span>
+        <span class="skill badge">WordPress XML and JSON import</span>
+        <span class="skill badge">Realtime XML product and category <span>feed to Magento</span>
       </div>
     </div>
     <div class="skills clearfix">
@@ -295,7 +298,7 @@
       </div>
       <div class=" col-sm-12 clearfix">
         <span class="skill badge">SEO</span>
-        <span class="skill badge">Appcelerator Titanium - Native App Development</span>
+        <span class="skill badge">Android/iOS Appcelerator Titanium</span>
         <span class="skill badge">Mercurial Version Control</span>
       </div>
     </div>

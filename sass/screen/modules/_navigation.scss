@@ -1,0 +1,21 @@
+.navigation {
+  border-bottom: 1px solid #EEE;
+  font-size: 24px;
+  margin-bottom: $grid-gutter-width/2;
+  padding: {
+    top: $grid-gutter-width/2;
+    bottom: $grid-gutter-width/2;
+  }
+
+  a {
+    color: #ddd;
+    padding: 0 $grid-gutter-width/2;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &.active, &:hover {
+      color: inherit;
+    }
+  }
+
+}

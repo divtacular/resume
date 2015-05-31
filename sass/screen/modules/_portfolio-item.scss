@@ -1,0 +1,32 @@
+.portfolio-item {
+
+  .page-header {
+    margin-top: 0;
+  }
+
+  .website {
+    margin-bottom: $grid-gutter-width;
+    position: relative;
+
+    &:after {
+
+      content: " ";
+      display:block;
+
+      position: absolute;
+      bottom:0;
+      right:0;
+      left:0;
+
+      height: 20%;
+
+      @include background-image(linear-gradient(to top, white, transparent));
+
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+}

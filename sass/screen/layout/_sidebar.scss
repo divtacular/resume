@@ -1,0 +1,17 @@
+@include breakpoint(cat) {
+  .sidebar {
+    transform: perspective(1066px) rotateY(-20deg);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: none;
+    }
+  }
+  .skill span {
+    display: block;
+
+    @include breakpoint(dog) {
+      display: inline;
+    }
+  }
+}

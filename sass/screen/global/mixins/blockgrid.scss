@@ -72,7 +72,7 @@
 }
 
 @include block-grids(xs);
-@media (min-width: $screen-sm-min) {
+@media (min-width: 420px) {
   @include block-grids(sm)
 }
 

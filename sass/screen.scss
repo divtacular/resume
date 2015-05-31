@@ -1,8 +1,17 @@
 @import "bourbon";
-@import "global";
+
+@import "global/*";
+@import "global/**/*";
+
+@import 'bootstrap-compass';
+@import 'bootstrap-variables';
+@import 'bootstrap';
+
 @import "screen/global/*";
 @import "screen/global/**/*";
+
 @import "screen/layout/*";
 @import "screen/layout/**/*";
+
 @import "screen/modules/*";
 @import "screen/modules/**/*";
