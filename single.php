@@ -12,6 +12,7 @@
   <link href='/CV/css/print.css' rel='stylesheet' type='text/css' media="print">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab' rel='stylesheet' type='text/css'>
 
+  <meta name="robots" content="NOINDEX, NOFOLLOW" />
 </head>
 
 
@@ -57,11 +58,11 @@
   <!-- Portfolio Item Row -->
   <div class="row">
 
-    <div class="website col-sm-12 col-md-4">
-      <img class="" src="../img/processed/featured/<?php echo $project['name'] ?>-tiny.jpg" />
+    <div class="website col-sm-12 col-md-5">
+      <img class="" src="../img/processed/featured/<?php echo $project['image'] ?>-tiny.jpg" />
     </div>
 
-    <div class="col-sm-12 col-md-8">
+    <div class="col-sm-12 col-md-7">
       <h3>Project Description</h3>
 
       <p><?php echo $project['description'] ?></p>
