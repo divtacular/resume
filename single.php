@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resume of David Smythe</title>
 
-  <link href='build/css/production.min.css' rel='stylesheet' type='text/css' media="screen" />
+  <link href='/CV/build/css/production.min.css' rel='stylesheet' type='text/css' media="screen" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab' rel='stylesheet' type='text/css' />
 
   <meta name="robots" content="NOINDEX, NOFOLLOW" />
@@ -35,9 +35,8 @@
   <div class="row">
     <div class="col-xs-12">
       <div class="navigation" role="navigation">
-
-        <a class="active" href="/CV/portfolio.html">Portfolio</a>
         <a href="/CV/">CV</a>
+        <a class="active" href="/CV/portfolio.html">Portfolio</a>
       </div>
     </div>
   </div>
