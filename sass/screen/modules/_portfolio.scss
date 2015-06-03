@@ -13,7 +13,6 @@
     }
 
     .portfolio-item {
-
       margin: {
         bottom: $grid-gutter-width/2;
       }
@@ -57,10 +56,11 @@
         margin: 5px 0;
         font-size: 24px;
 
-        @include breakpoint(bird) {
-          font-size: 26px;
+        @media screen and (min-width: 420px) {
+          font-size: 17px;
         }
-        @include breakpoint(cat) {
+
+        @media screen and (min-width: 620px) {
           font-size: 20px;
         }
       }
