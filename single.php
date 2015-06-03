@@ -56,8 +56,8 @@
   <div class="row">
 
     <div class="website col-sm-12 col-md-5">
-      <img alt="<?php echo $project['name'] ?>" src="/CV/build/img/processed/featured/<?php echo $project['image']
-      ?>-large.jpg" />
+      <img alt="<?php echo $project['name'] ?> homepage screenshot" src="/CV/build/img/processed/featured/<?php echo
+      $project['image'] ?>-large.jpg" />
     </div>
 
     <div class="col-sm-12 col-md-7">
