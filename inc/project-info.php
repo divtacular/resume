@@ -11,7 +11,8 @@ $projects = array(
 
   "spottydog" => array(
     "name" => "Spottydog",
-    "type" => "Magento",
+    "platform" => "Magento",
+    "type" => "Solo",
     "image" => "spottydog",
     "description" => "Responsive Magento project designed multiple storefronts in mind. Users are able to upload
     their custom artwork for each product using a bespoke JavaScript upload process. The site will launch
@@ -26,7 +27,8 @@ $projects = array(
 
   "603copywriting" => array(
     "name" => "603 Copywriting",
-    "type" => "WordPress",
+    "platform" => "WordPress",
+    "type" => "Solo",
     "image" => "603",
     "description" => "The 603 Copywriting project was to take an already successful copy writing blog and convert it
     to a porfolio and business website. The site had to support self-built landing pages and a range of bespoke
@@ -42,7 +44,8 @@ $projects = array(
 
   "shuffskidz" => array(
     "name" => "Shuffs Kidz",
-    "type" => "Magento",
+    "platform" => "Magento",
+    "type" => "Collaborative",
     "image" => "shuffs",
     "description" => "Shuffs Kidz was a responsive Magento site built to make importing seasonal stock easy. A
     bespoke import process was developed to automatically create configurable products based on available associations
@@ -56,7 +59,8 @@ $projects = array(
 
   "teamad" => array(
     "name" => "Team AD",
-    "type" => "WordPress",
+    "platform" => "WordPress",
+    "type" => "Solo",
     "image" => "teamad",
     "description" => "Team AD Global needed a responsive site for their IT management services. The new site allows
     the to manage their content and easily promote clients they work with.",
@@ -68,7 +72,8 @@ $projects = array(
 
   "londonapartments" => array(
     "name" => "London Apartments",
-    "type" => "WordPress",
+    "platform" => "WordPress",
+    "type" => "Collaborative",
     "image" => "london-apartments",
     "description" => "The London Apartments website is a property rentals site for Uk and European properties. Their
     new site was an extensive overhaul of their existing site, with a brand new properties creation process which
@@ -87,7 +92,8 @@ $projects = array(
 
   "wkb" => array(
     "name" => "Wood Knit Bee",
-    "type" => "WooCommerce",
+    "platform" => "WooCommerce",
+    "type" => "Collaborative",
     "image" => "wkb",
     "description" => "The Wood Knit Bee site was an upgrade to their previous site to add ecommerce support.
     Extensive upgrade-friendly modifications were made to support wholesale customers who required different prices
@@ -102,7 +108,8 @@ $projects = array(
 
   "tecla" => array(
     "name" => "Tecla Languages",
-    "type" => "Woocommerce",
+    "platform" => "WooCommerce",
+    "type" => "Collaborative",
     "image" => "tecla",
     "description" => "The Tecla Languages site was a customised WooCommerce implementation that was setup to allow
     students to purchase seats for courses on specific dates. The site also supports Magento Blogging.",
@@ -115,7 +122,8 @@ $projects = array(
 
   "cornishwelding" => array(
     "name" => "Cornish Welding Supplies",
-    "type" => "Magento",
+    "platform" => "Magento",
+    "type" => "Solo",
     "image" => "cornish",
     "description" => "Cornish Welding required their existing CubeCart be replaced with a new Magento site. The
     existing product catalog was imported into Magento, preserving images and up sell associations as well as cleaning
@@ -130,7 +138,8 @@ $projects = array(
 
   "the-carbon-directory" => array(
     "name" => "The Carbon Directory",
-    "type" => "Bespoke Php",
+    "platform" => "Bespoke Php",
+    "type" => "Solo",
     "image" => "tcd",
     "description" => "The Carbon Directory is a business directory promoting carbon neutral companies. The project
     was a bespoke php site build from the ground up, with a secure administration login are for managing listings.
@@ -147,7 +156,8 @@ $projects = array(
 
   "rikkicann" => array(
     "name" => "Rikki Cann",
-    "type" => "Wordpress",
+    "platform" => "Wordpress",
+    "type" => "Solo",
     "image" => "rikkicann",
     "description" => "The Rikki Cann site is a bespoke WordPress site pre dating responsive web design. It was
     designed to showcase their varied services, their work and results, and their company history without confusing
@@ -160,16 +170,17 @@ $projects = array(
   ),
 
   "summitglow" => array(
-  "name" => "Summitglow Ltd",
-  "type" => "Wordpress",
-  "image" => "summitglow",
-  "description" => "Summitglow needed a responsive website built which they could manage themselves to replace their
+    "name" => "Summitglow Ltd",
+    "platform" => "Wordpress",
+    "type" => "Solo",
+    "image" => "summitglow",
+    "description" => "Summitglow needed a responsive website built which they could manage themselves to replace their
   much older static website. The site was built to a tight budget and specification, and fulfilled their requirements
   for the site.",
-  "details" => array(
-    "Foundation 5"
+    "details" => array(
+      "Foundation 5"
+    )
   )
-)
 );
 
 if ((isset($projects[$project]))) {

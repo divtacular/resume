@@ -45,7 +45,7 @@
   <div class="row">
     <div class="col-lg-12">
       <h1 class="page-header"><?php echo $project['name'] ?>
-        <small><?php echo $project['type'] ?> Project</small>
+        <small><?php echo $project['type'], " ", $project['platform'] ?> Project</small>
       </h1>
     </div>
   </div>
