@@ -1,29 +1,28 @@
 {
-    "name": "CV",
-    "version": "0.0.1",
-    "devDependencies": {
-        "glob": "~3.2.8",
-        "grunt": "~0.4.5",
-        "grunt-contrib-clean": "~0.5.0",
-        "grunt-contrib-compass": "~0.8.0",
-        "grunt-contrib-concat": "~0.4.0",
-        "grunt-contrib-cssmin": "~0.10.0",
-        "grunt-contrib-imagemin": "~0.7.1",
-        "grunt-contrib-jshint": "~0.10.0",
-        "grunt-contrib-uglify": "~0.5.0",
-        "grunt-contrib-watch": "~0.6.1",
-        "grunt-csscss": "~0.6.2",
-        "grunt-notify": "~0.3.0",
-        "grunt-responsive-images": "~0.1.4",
-        "grunt-shell": "~0.7.0",
-        "grunt-uncss": "~0.3.4",
-        "jpegtran-bin": "0.2.3",
-        "optipng-bin": "0.3.1",
-        "pngquant-bin": "0.1.6",
-        "time-grunt": "~0.3.2"
-    },
-    "dependencies": {
-        "load-grunt-tasks": "~0.2.0"
-    }
+  "name": "CV",
+  "version": "0.0.1",
+  "devDependencies": {
+    "glob": "~3.2.8",
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-imagemin": "~0.7.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-csscss": "~0.6.2",
+    "grunt-notify": "~0.3.0",
+    "grunt-responsive-images": "~0.1.4",
+    "grunt-sass": "^1.0.0",
+    "grunt-shell": "~0.7.0",
+    "grunt-uncss": "~0.3.4",
+    "jpegtran-bin": "0.2.3",
+    "optipng-bin": "0.3.1",
+    "pngquant-bin": "0.1.6",
+    "time-grunt": "~0.3.2"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "~0.2.0"
+  }
 }
-

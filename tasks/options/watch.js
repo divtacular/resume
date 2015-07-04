@@ -11,7 +11,7 @@ module.exports = {
     },
     sass: {
       files: ['sass/*.scss','sass/**/*.scss'],
-      tasks: ['compass', 'concat:styles', 'cssmin', 'clean:styles', 'notify:styles'],
+      tasks: ['sass', 'concat:styles', 'cssmin', 'clean:styles', 'notify:styles'],
       options: {
         spawn: false,
       }
