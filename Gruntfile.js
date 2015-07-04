@@ -35,7 +35,7 @@ module.exports = function (grunt) {
 
     // Default Task is basically a rebuild
     grunt.registerTask('default', [
-        'compass',
+        'sass',
         'concat',
         'cssmin',
         'uglify',
