@@ -1,17 +1,28 @@
 @import "bourbon";
+@import "font-awesome";
 
-@import "global/*";
-@import "global/**/*";
+@import "global/breakpoints";
+@import "global/settings";
 
 @import 'bootstrap-compass';
 @import 'bootstrap-variables';
 @import 'bootstrap';
 
-@import "screen/global/*";
-@import "screen/global/**/*";
+//@import "screen/global/mixins/blockgrid";
+@import "screen/global/base";
+@import "screen/global/typography";
 
-@import "screen/layout/*";
-@import "screen/layout/**/*";
+@import "screen/layout/bootstrap";
+@import "screen/layout/header";
+@import "screen/layout/sidebar";
 
-@import "screen/modules/*";
-@import "screen/modules/**/*";
+@import "screen/modules/contact";
+@import "screen/modules/education";
+@import "screen/modules/highlight";
+@import "screen/modules/job";
+@import "screen/modules/navigation";
+@import "screen/modules/photo";
+@import "screen/modules/platforms";
+@import "screen/modules/portfolio";
+@import "screen/modules/portfolio-item";
+@import "screen/modules/section-icons";
