@@ -22,7 +22,7 @@
 @mixin block-grid($per-row) {
   & > div {
     width: (100%/$per-row);
-    $nth-equation: #{$per-row}n+'+'+1;
+    $nth-equation: #{$per-row}n+1;
     &:nth-of-type(n) {
       clear: none;
     }

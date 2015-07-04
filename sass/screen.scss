@@ -1,14 +1,15 @@
 @import "bourbon";
-@import "font-awesome";
 
 @import "global/breakpoints";
 @import "global/settings";
+
+@import "font-awesome";
 
 @import 'bootstrap-compass';
 @import 'bootstrap-variables';
 @import 'bootstrap';
 
-//@import "screen/global/mixins/blockgrid";
+@import "screen/global/mixins/blockgrid";
 @import "screen/global/base";
 @import "screen/global/typography";
 
